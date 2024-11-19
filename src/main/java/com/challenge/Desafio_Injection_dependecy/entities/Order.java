@@ -1,8 +1,9 @@
 package com.challenge.Desafio_Injection_dependecy.entities;
 
-
+import org.springframework.stereotype.Component;
 import java.util.Objects;
 
+@Component
 public class Order {
     private Integer code;
     private Double basic;

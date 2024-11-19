@@ -1,6 +1,7 @@
-package service;
+package com.challenge.Desafio_Injection_dependecy.service;
 
 import com.challenge.Desafio_Injection_dependecy.entities.Order;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
